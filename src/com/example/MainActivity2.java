@@ -2,7 +2,6 @@ package com.example;
 
 import android.app.Activity;
 import android.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,27 +11,19 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class MainActivity extends Activity  implements OnClickListener  {
+public class MainActivity2 extends Activity  implements OnClickListener  {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);		
-		Button botao = (Button) findViewById(R.id.mButtonAvancar);
+	    setContentView(R.layout.activity_main2);
+	    Button botao = (Button) findViewById(R.id.mButtonRetornar);
 		botao.setOnClickListener(this);
 	}
 	
 	@Override
 	public void onClick(View v) {
-		Intent intencao = new Intent(this, MainActivity2.class);
-		Bundle params = new Bundle();
-		params.putString("nomeOut", "Julio Leme");
-		params.putString("siteOut", "www.learning.com.br");
-		params.putString("cidadeOut", "Sao Paulo");
-		params.putString("estadoOut", "SP");
-		params.putString("paisOut", "Brasil");
-		intencao.putExtras(params);
-		startActivity(intencao);
+		finish();
 	}
 
 	@Override

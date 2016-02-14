@@ -3,8 +3,15 @@
     <issue id="LabelFor">
         <ignore path="res/layout/activity_main.xml" />
     </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/activity_main2.xml" />
+    </issue>
     <issue id="RtlHardcoded">
         <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/activity_main2.xml" />
+    </issue>
+    <issue id="RtlSymmetry">
+        <ignore path="res/layout/activity_main2.xml" />
     </issue>
     <issue id="TextFields">
         <ignore path="res/layout/activity_main.xml" />
