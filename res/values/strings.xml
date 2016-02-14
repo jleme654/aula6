@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P6_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Cadastro de Alunos</string>
+    <string name="nome">Nome:</string>
+    <string name="nomeOut">Julio Leme</string>
+    <string name="site">Site:</string>
+    <string name="siteOut">www.learning.com.br</string>
+    <string name="endereco">Endereco:</string>
+    <string name="enderecoOut">Rua Rego Freitas, 530</string>
+    <string name="cidade">Cidade:</string>
+    <string name="cidadeOut">São Paulo</string>
+    <string name="estado">Estado:</string>
+    <string name="estadoOut">SP</string>
+    <string name="pais">Pais:</string>
+    <string name="paisOut">Brasil</string>
+    <string name="avancar">avancar</string>
+    <string name="retornar">retornar</string>
+
+</resources>

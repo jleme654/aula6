@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/mNome"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:gravity="right|center_vertical"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/mNomeOut"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/mNome"
+        android:gravity="left|center_vertical"
+        android:text="@string/nomeOut" />
+
+    <TextView
+        android:id="@+id/mSite"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mNome"
+        android:gravity="right|center_vertical"
+        android:text="@string/site" />
+
+    <EditText
+        android:id="@+id/mSiteOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mNomeOut"
+        android:layout_toRightOf="@+id/mSite"
+        android:gravity="left|center_vertical"
+        android:text="@string/siteOut" />
+
+    <TextView
+        android:id="@+id/mCidade"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mSite"
+        android:gravity="right|center_vertical"
+        android:text="@string/cidade" />
+
+    <EditText
+        android:id="@+id/mCidadeOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mSiteOut"
+        android:layout_toRightOf="@+id/mCidade"
+        android:gravity="left|center_vertical"
+        android:text="@string/cidadeOut" />
+
+    <TextView
+        android:id="@+id/mEstado"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mCidade"
+        android:gravity="right|center_vertical"
+        android:text="@string/estado" />
+
+    <EditText
+        android:id="@+id/mEstadoOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mCidadeOut"
+        android:layout_toRightOf="@+id/mEstado"
+        android:gravity="left|center_vertical"
+        android:text="@string/estadoOut" />
+
+    <TextView
+        android:id="@+id/mPais"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mEstado"
+        android:gravity="right|center_vertical"
+        android:text="@string/pais" />
+
+    <EditText
+        android:id="@+id/mPaisOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mEstadoOut"
+        android:layout_toRightOf="@+id/mPais"
+        android:gravity="left|center_vertical"
+        android:text="@string/paisOut" />
+
+    <Button
+        android:id="@+id/mButtonAvancar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mPaisOut"
+        android:text="@string/avancar"
+        android:gravity="center" />
+
+</RelativeLayout>
